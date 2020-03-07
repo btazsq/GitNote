@@ -13,10 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button btazsq = findViewById(R.id.btazsq_test_button);
+        //测试冲突
         btazsq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"来自btazsq", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"来自wy", Toast.LENGTH_SHORT).show();
             }
         });
     }
